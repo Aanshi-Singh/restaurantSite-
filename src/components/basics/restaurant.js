@@ -6,7 +6,7 @@ const Restaurant = () => {
 const [menuData, setMenuData] = useState(Menu);
   return (
     <>
-    <Menucard menuData = {menuData}/>
+    <Menucard menuData = {Menu}/>
     </>
   )
 }

@@ -1,4 +1,4 @@
-const menu = [{
+const Menu = [{
     id:1,
     image : "images/img1.avif",
     name: "maggi",
@@ -41,4 +41,4 @@ const menu = [{
 
 
 ]
-export default menu;
+export default Menu;
