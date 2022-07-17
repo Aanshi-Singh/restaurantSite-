@@ -53,5 +53,14 @@ const Menu = [
     description:
       "lorem ndsdn fbdhfbdh sdhjbfs vbdshj vbdj bvbsdhj bvbdjbdjb b bnddjfnbfv n n  hgbhbhbsd dhgbd dhvbs hfb hsdb ue fdj cvn suhg u",
   },
+  {
+    id: 6,
+    image: "images/pizza.jpg",
+    name: "Pizza",
+    price: "5643rs",
+    type: "Aanshi's Special",
+    description:
+      "lorem ndsdn fbdhfbdh sdhjbfs vbdshj vbdj bvbsdhj bvbdjbdjb b bnddjfnbfv n n  hgbhbhbsd dhgbd dhvbs hfb hsdb ue fdj cvn suhg u",
+  }
 ];
 export default Menu;

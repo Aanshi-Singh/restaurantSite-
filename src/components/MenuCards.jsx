@@ -2,29 +2,33 @@ const MenuCards = ({ menuData }) => {
   return (
     <>
       <section className="main-card--cointainer">
-        {menuData.map((curr) => (
-          <>
-            <div className=" card-container" key={curr.id}>
+        {menuData.map((curr) => {
+          const {id,image,name,price,type,description} = curr;
+
+          return(
+            <>
+            <div className="card-container" key={id}>
               <div className="card">
                 <div className="cardbody">
                   <span className="card-number card-circle subtle">
-                    {curr.id}
+                    {id}
                   </span>
                   <span an className="card-author subtle">
-                    {curr.price}
+                    {price}
                   </span>
-                  <h2 className="card-title">{curr.name}</h2>
+                  <h2 className="card-title">{name}</h2>
                   <span className="card-description subtle">
-                    {curr.description}
+                    {description}
                   </span>
                   <div className="card-read">Read</div>
                 </div>
-                <img src={curr.image} alt="" />
+                <img src={image} alt="" />
                 <span className="card-tag">Order Now</span>
               </div>
             </div>
           </>
-        ))}
+        );
+        })}
       </section>
     </>
   );
