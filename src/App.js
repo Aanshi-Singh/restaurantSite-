@@ -1,19 +1,8 @@
-import React from 'react'
+import React from "react";
 
-import Restaurant from './components/basics/restaurant'
+import { Restaurant } from "./components/Restaurant";
 const App = () => {
-  return <Restaurant/>
-}
+  return <Restaurant />;
+};
 
-export default App
-// const App=()=>{
-//   return (
-//     <>
-//     <MyName/>
-//       <h1>hello world {3+3}</h1>
-       
-//     </>)
-// };
-// const MyName =()=>{
-//   return <h1>aanshi</h1>
-// };
+export default App;
