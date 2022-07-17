@@ -1,18 +1,19 @@
-import React from "react";
-const App=()=>{
-  return (
-    <>
-    <MyName/>
-      <h1>hello world {3+3}</h1>
-      
-    </>
-  )
-};
+import React from 'react'
 
-const MyName =()=>{
-  return <h1>aanshi</h1>
-};
+import Restaurant from './components/basics/restaurant'
+const App = () => {
+  return <Restaurant/>
+}
 
-
-
-export default App;
+export default App
+// const App=()=>{
+//   return (
+//     <>
+//     <MyName/>
+//       <h1>hello world {3+3}</h1>
+       
+//     </>)
+// };
+// const MyName =()=>{
+//   return <h1>aanshi</h1>
+// };
