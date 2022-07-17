@@ -1,7 +1,4 @@
-import React from 'react'
-
-const Menucard = ({menuData}) => {
-    console.log(menuData);
+const MenuCards = ({ menuData }) => {
   return (
     <>
 
@@ -35,4 +32,4 @@ const Menucard = ({menuData}) => {
   )
 }
 
-export default Menucard;
+export { MenuCards };
