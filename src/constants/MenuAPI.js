@@ -13,7 +13,7 @@ const Menu = [
     image: "images/img2.jpg",
     name: "Pasta",
     price: "1882rs",
-    type:"Breakfast",
+    type: "Breakfast",
     description:
       "lorem ndsdn fbdhfbdh sdhjbfs vbdshj vbdj bvbsdhj bvbdjbdjb b bnddjfnbfv n n  hgbhbhbsd dhgbd dhvbs hfb hsdb ue fdj cvn suhg u",
   },
@@ -61,6 +61,6 @@ const Menu = [
     type: "Aanshi's Special",
     description:
       "lorem ndsdn fbdhfbdh sdhjbfs vbdshj vbdj bvbsdhj bvbdjbdjb b bnddjfnbfv n n  hgbhbhbsd dhgbd dhvbs hfb hsdb ue fdj cvn suhg u",
-  }
+  },
 ];
 export default Menu;
